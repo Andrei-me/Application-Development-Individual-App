@@ -1,17 +1,35 @@
-# game_list
 
-A new Flutter project.
+# GameVault
+### A Personal Video Game Collection and Review Tracker
+
+GameVault is a simple Flutter application that helps gamers organize their video game collections, track their playing progress, and save personal ratings and reviews.
+
+## Features
+- Manage your personal game collection
+- Add, edit, and delete games
+- Track game status (Playing, Completed, Plan to Play, and On Hold)
+- Rate games
+- Write and manage personal reviews
+- Search for games
+- View collection statistics through a dashboard
+- Save game information locally
+
+## Technologies Used
+- Flutter
+- Dart
+- Local Storage
+
+## Project Purpose
+Developed as an individual project for the Application Development subject.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Install Flutter and Dart.
+2. Clone this repository.
+3. Open the project folder in VS Code.
+4. Run the following commands:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
+```
