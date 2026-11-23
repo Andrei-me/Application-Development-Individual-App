@@ -1,0 +1,123 @@
+GameVault Cover Download Report
+===============================
+
+Catalog state
+-------------
+- Total games in catalog: 54.
+- Local cover images present in assets/game_covers/: 54
+- Catalog entries with no verified local portrait cover: 0
+
+Existing local cover images preserved
+-------------------------------------
+All previously valid local cover image files were preserved in `assets/game_covers/`.
+No incorrect images, placeholders, or AI-generated substitutes were added.
+
+The 11 entries listed below were removed from the catalog because a verified
+portrait cover could not be obtained. They are retained here as a record of the
+manual cover search, but are no longer available in Browse Games or search.
+
+Verified portrait covers downloaded and saved (exact game IDs as filenames)
+---------------------------------------------------------------------------
+- witcher-3.jpg
+  Title: The Witcher 3: Wild Hunt
+  Source: https://cdn.akamai.steamstatic.com/steam/apps/292030/library_600x900.jpg
+  Downloaded on: 2026-06-10
+
+- gta-v.jpg
+  Title: Grand Theft Auto V
+  Source: https://cdn.akamai.steamstatic.com/steam/apps/271590/library_600x900.jpg
+  Downloaded on: 2026-06-10
+
+- sekiro.jpg
+  Title: Sekiro: Shadows Die Twice
+  Source: https://cdn.akamai.steamstatic.com/steam/apps/814380/library_600x900.jpg
+  Downloaded on: 2026-06-10
+
+- oblivion.jpg
+  Title: The Elder Scrolls IV: Oblivion
+  Source: https://cdn.akamai.steamstatic.com/steam/apps/22330/library_600x900.jpg
+  Downloaded on: 2026-06-10
+
+- horizon-zero-dawn.jpg
+  Title: Horizon Zero Dawn
+  Source: https://cdn.akamai.steamstatic.com/steam/apps/1151640/library_600x900.jpg
+  Downloaded on: 2026-06-10
+
+- ghost-of-tsushima.jpg
+  Title: Ghost of Tsushima
+  Source: https://cdn.akamai.steamstatic.com/steam/apps/2215430/library_600x900.jpg
+  Downloaded on: 2026-06-10
+
+- control.jpg
+  Title: Control
+  Source: https://cdn.akamai.steamstatic.com/steam/apps/870780/library_600x900.jpg
+  Downloaded on: 2026-06-10
+
+- disco-elysium.jpg
+  Title: Disco Elysium
+  Source: https://cdn.akamai.steamstatic.com/steam/apps/632470/library_600x900.jpg
+  Downloaded on: 2026-06-10
+
+- shovel-knight.jpg
+  Title: Shovel Knight
+  Source: https://cdn.akamai.steamstatic.com/steam/apps/250760/library_600x900.jpg
+  Downloaded on: 2026-06-10
+
+Games still requiring manual portrait cover images
+--------------------------------------------------
+A verified, exact-match portrait cover could not be reliably obtained for the
+following catalog entries (sources were landscape/square-only, blocked/unfetchable,
+or not an exact same-game portrait match). These entries remain in the catalog
+with `assets/game_covers/<id>.jpg` paths but no local cover file; the app shows a
+cinematic fallback until a valid manual image is added.
+
+- alan-wake-2 (Alan Wake 2)
+  Reason: Only verifiable official imagery found during sourcing was non-portrait
+  (landscape/square) or not safely/clearly downloadable as an exact portrait cover.
+
+- bloodborne (Bloodborne)
+  Reason: Could not confirm a directly downloadable official portrait cover image
+  at the required size/aspect from an accessible official source.
+
+- final-fantasy-x (Final Fantasy X)
+  Reason: Official store/platform imagery found was for a compilation/remaster
+  (e.g. FFX/X-2 HD Remaster) and not an exact verified portrait cover for
+  "Final Fantasy X" alone.
+
+- fortnite (Fortnite)
+  Reason: Official Fortnite artwork is commonly landscape/key art; no verified
+  standalone portrait box/cover image was reliably obtained.
+
+- mario-kart-8-deluxe (Mario Kart 8 Deluxe)
+  Reason: Accessible official imagery reviewed was not a verified downloadable
+  portrait cover matching this exact title.
+
+- minecraft (Minecraft)
+  Reason: Official sources provided square/landscape branding assets; no verified
+  portrait cover image was reliably obtained.
+
+- need-for-speed-underground-2 (Need for Speed: Underground 2)
+  Reason: Reliable official portrait cover artwork could not be confirmed and
+  downloaded from an accessible source.
+
+- starcraft (StarCraft)
+  Reason: Could not reliably obtain an exact, verified portrait cover image from
+  an accessible official source.
+
+- super-mario-odyssey (Super Mario Odyssey)
+  Reason: Accessible official imagery reviewed was not a verified downloadable
+  portrait cover for this exact title.
+
+- super-mario-world (Super Mario World)
+  Reason: Could not reliably obtain an exact, verified portrait cover image from
+  an accessible official source.
+
+- zelda-botw (The Legend of Zelda: Breath of the Wild)
+  Reason: Accessible official imagery reviewed was not a verified downloadable
+  portrait cover for this exact title.
+
+Notes
+-----
+- Manual images, if obtained later, should be saved as portrait JPGs in
+  `assets/game_covers/` using the exact game IDs above as filenames.
+- Flutter UI and application logic changes are handled separately from this report.
